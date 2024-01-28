@@ -1,13 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TerminalManager : MonoBehaviour
+public class TerminalManager1 : MonoBehaviour
 {
     public InputField passwordInput;
     public Button confirmButton;
     public string correctPassword = "1101"; // Пароль для проверки
     public CanvasManager canvasManager;
-    public GameController gameController; // Добавляем GameController
     public GameObject objectWithCollider; // Ссылка на объект с коллайдером
     private Collider2D colliderToDisable;
 
@@ -30,13 +29,14 @@ public class TerminalManager : MonoBehaviour
                 colliderToDisable.enabled = false;
                 // Collider теперь отключен
             }
+
            
+           
+
+         
         }
         else
-        {   // Устанавливаем флаг в GameController, что не правильный пароль введен
-            gameController.SetCorrectPasswordEntered(true);
-            // Вызываем метод для управления снарядами в GameController
-            gameController.ControlProjectiles();
+        {
             Debug.Log("Неверный пароль!"); // Выводим сообщение об ошибке в консоль
             passwordInput.text = ""; // Очищаем поле ввода
         }
