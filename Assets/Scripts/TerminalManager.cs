@@ -30,7 +30,7 @@ public class TerminalManager : MonoBehaviour
                 colliderToDisable.enabled = false;
                 // Collider теперь отключен
             }
-           
+
         }
         else
         {   // Устанавливаем флаг в GameController, что не правильный пароль введен
