@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TerminalManager : MonoBehaviour
+public class TerminalManager2 : MonoBehaviour
 {
     public InputField passwordInput;
     public Button confirmButton;
