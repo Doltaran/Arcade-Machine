@@ -11,6 +11,8 @@ public class TerminalManager3 : MonoBehaviour
     // Словарь для хранения соответствия между паролями и номерами платформ
     public Dictionary<string, int> platformPasswords;
 
+    public Sprite activeSprite; // Спрайт для активированной платформы
+
     void Start()
     {
         confirmButton.onClick.AddListener(CheckPassword);
@@ -30,18 +32,14 @@ public class TerminalManager3 : MonoBehaviour
         // Проверяем правильность введенного пароля и активируем соответствующую платформу
         if (platformPasswords.ContainsKey(inputPassword))
         {
-            ActivatePlatform(platformPasswords[inputPassword]);
-            Debug.Log("Платформа Активирована!");
+            int platformNumber = platformPasswords[inputPassword];
+            platformManager.ActivatePlatform(platformNumber);
+            platformManager.SetPlatformSprite(platformNumber, activeSprite); // Передаем новый спрайт
+            Debug.Log("Доступ разрешен!");
         }
         else
         {
             Debug.Log("Неверный пароль!");
         }
-    }
-
-    // Метод для активации определенной платформы
-    private void ActivatePlatform(int platformNumber)
-    {
-        platformManager.ActivatePlatform(platformNumber);
     }
 }

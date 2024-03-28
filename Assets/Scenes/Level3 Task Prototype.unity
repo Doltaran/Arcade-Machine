@@ -459,6 +459,7 @@ MonoBehaviour:
   passwordInput: {fileID: 679007377}
   confirmButton: {fileID: 1675526228}
   platformManager: {fileID: 202729564}
+  activeSprite: {fileID: -17079644, guid: 34052e2ea50e5e846b2efd229ec4c0e1, type: 3}
 --- !u!114 &202729564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,6 +475,10 @@ MonoBehaviour:
   platforms:
   - {fileID: 822956931}
   - {fileID: 52145013}
+  platformRenderers:
+  - {fileID: 0}
+  - {fileID: 822956928}
+  - {fileID: 52145010}
 --- !u!1 &451854325
 GameObject:
   m_ObjectHideFlags: 0
