@@ -20,7 +20,9 @@ public class TerminalManager3 : MonoBehaviour
         // Инициализируем словарь и заполняем его данными
         platformPasswords = new Dictionary<string, int>();
         platformPasswords.Add("1", 1);
-        platformPasswords.Add("10", 2);// Пример пароля и соответствующей платформы
+        platformPasswords.Add("10", 2);
+        platformPasswords.Add("100", 4);
+        platformPasswords.Add("101", 5);// Пример пароля и соответствующей платформы
 
         // Можно добавить другие пароли и платформы по мере необходимости
     }
