@@ -7,6 +7,8 @@ public class TerminalManager3 : MonoBehaviour
     public InputField passwordInput;
     public Button confirmButton;
     public PlatformManager platformManager; // Ссылка на менеджер платформ
+    public AudioClip incorrectPasswordAudio; // Аудиоклип для неправильного пароля
+    private AudioSource audioSource;
 
     // Словарь для хранения соответствия между паролями и номерами платформ
     public Dictionary<string, int> platformPasswords;
@@ -15,14 +17,16 @@ public class TerminalManager3 : MonoBehaviour
 
     void Start()
     {
+        audioSource = gameObject.AddComponent<AudioSource>();
         confirmButton.onClick.AddListener(CheckPassword);
 
         // Инициализируем словарь и заполняем его данными
         platformPasswords = new Dictionary<string, int>();
-        platformPasswords.Add("1", 1);
-        platformPasswords.Add("10", 2);
-        platformPasswords.Add("100", 4);
-        platformPasswords.Add("101", 5);// Пример пароля и соответствующей платформы
+        platformPasswords.Add("101", 0);
+        platformPasswords.Add("100", 1);
+        platformPasswords.Add("1000", 2);
+        platformPasswords.Add("1111", 3);
+        platformPasswords.Add("10101", 4);// Пример пароля и соответствующей платформы
 
         // Можно добавить другие пароли и платформы по мере необходимости
     }
@@ -41,6 +45,7 @@ public class TerminalManager3 : MonoBehaviour
         }
         else
         {
+            audioSource.PlayOneShot(incorrectPasswordAudio);
             Debug.Log("Неверный пароль!");
         }
     }

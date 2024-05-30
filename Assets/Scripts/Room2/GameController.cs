@@ -2,26 +2,33 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public bool correctPasswordEntered { get; private set; } // Флаг для проверки введенного правильного пароля
     public ProjectileScript projectileScript; // Ссылка на скрипт управления снарядами
+    private bool isShootingAllowed = true;
+
     private void Start()
     {
-        correctPasswordEntered = false; // Изначально флаг устанавливаем в false
+        StartShooting(); // Запускаем стрельбу при старте игры
     }
 
-    public void SetCorrectPasswordEntered(bool value)
+    private void StartShooting()
     {
-        correctPasswordEntered = value;
-    }
-
-    // Добавим метод, который будет управлять снарядами
-    public void ControlProjectiles()
-    {
-        if (correctPasswordEntered)
+        if (isShootingAllowed)
         {
-            projectileScript.StartShooting(); // Запускаем снаряды, если правильный пароль введен
+            projectileScript.StartShooting();
         }
     }
 
+    public void SetShootingAllowed(bool allowed)
+    {
+        isShootingAllowed = allowed;
+        if (allowed)
+        {
+            StartShooting();
+        }
+        else
+        {
+            projectileScript.StopShooting();
+        }
+    }
 
 }

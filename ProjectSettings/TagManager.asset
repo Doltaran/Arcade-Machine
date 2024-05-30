@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Terminal
+  - Projectile
+  - Wall
+  - Bullet
+  - MainSound
   layers:
   - Default
   - TransparentFX
@@ -17,9 +21,9 @@ TagManager:
   - Ground
   - BackGround
   - UI2
-  - 
-  - 
-  - 
+  - Projectile
+  - Player
+  - 1
   - 
   - 
   - 
@@ -41,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: uiNumber
+    uniqueID: 1825033281
     locked: 0

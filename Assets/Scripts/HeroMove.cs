@@ -49,8 +49,10 @@ public class HeroMove : MonoBehaviour
             _spriteRenderer.flipX = false; // Не отражаем
         }
 
+
+
         // Обновление параметров анимации
-        //_animator.SetBool("is-ground", isGrounded);
-        //_animator.SetBool("is-running", Mathf.Abs(moveX) > 0);
+        _animator.SetBool("is-ground", isGrounded);
+        _animator.SetBool("is-running", Mathf.Abs(moveX) > 0);
     }
 }

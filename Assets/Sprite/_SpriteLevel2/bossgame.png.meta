@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: e42bef33cd4ad504282fc9ebad51f201
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossgame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 122
+      alignment: 9
+      pivot: {x: 0.55545735, y: 0.33275753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.094093, y: 60.5}
+        - {x: 1.2819595, y: 60.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -63.108574, y: 2.996666}
+        - {x: -61.4562, y: -11.571819}
+        - {x: -35.70713, y: -11.515987}
+        - {x: -20.174175, y: 4.933716}
+        - {x: -10.973473, y: 13.478394}
+        - {x: -4.0153847, y: 10.162636}
+        - {x: -3.4340363, y: 8.301704}
+        - {x: -12.680309, y: 8.231651}
+        - {x: -16.167152, y: 7.6294937}
+        - {x: -19.0471, y: 5.319504}
+        - {x: -47.45804, y: -60.5}
+        - {x: -0.97691727, y: -60.330666}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 2.7318802, y: -25.721127}
+        - {x: -3.3644104, y: -11.170197}
+        - {x: 12.585228, y: -17.685146}
+        - {x: 19.257286, y: -11.842255}
+        - {x: 18.615486, y: -23.458107}
+        - {x: 16.25953, y: -34.12967}
+        - {x: 25.166939, y: -42.825836}
+        - {x: 24.536911, y: -48.70003}
+        - {x: 19.189095, y: -60.372692}
+        - {x: 63.5, y: -60.5}
+        - {x: 63.5, y: -21.5}
+        - {x: 63.5, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c932194e3c7b28e4687adbde9253f11f
+      internalID: -1673040504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 115
+        height: 122
+      alignment: 9
+      pivot: {x: 0.56316155, y: 0.3151589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.094093, y: 60.5}
+        - {x: 1.2819595, y: 60.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -57.5, y: 26.950813}
+        - {x: -57.5, y: 2.2614136}
+        - {x: -38.512573, y: 0.53380585}
+        - {x: -22.774033, y: 1.8764343}
+        - {x: -47.45804, y: -60.5}
+        - {x: -0.97691727, y: -60.330666}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 2.7318802, y: -25.721127}
+        - {x: -3.3644104, y: -11.170197}
+        - {x: 12.585228, y: -17.685146}
+        - {x: 19.257286, y: -11.842255}
+        - {x: 18.615486, y: -23.458107}
+        - {x: 16.25953, y: -34.12967}
+        - {x: 25.166939, y: -42.825836}
+        - {x: 24.536911, y: -48.70003}
+        - {x: 19.189095, y: -60.372692}
+        - {x: 57.5, y: -60.5}
+        - {x: 57.5, y: -21.5}
+        - {x: 57.5, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54195b2044ab37347a32546857b2bf09
+      internalID: -1930578917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 115
+        height: 112
+      alignment: 9
+      pivot: {x: 0.55583733, y: 0.34246618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.263947, y: 56.25392}
+        - {x: 0.7724304, y: 56.08407}
+        - {x: -30.881226, y: 42.234344}
+        - {x: -55.93463, y: 20.49376}
+        - {x: -57.5, y: 2.2614136}
+        - {x: -38.340332, y: -7.7345886}
+        - {x: -23.290833, y: -7.023575}
+        - {x: -47.45804, y: -60.5}
+        - {x: -0.97691727, y: -60.330666}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 2.498932, y: -27.817589}
+        - {x: 0.71203613, y: -25.14661}
+        - {x: 12.119354, y: -25.022762}
+        - {x: 17.976135, y: -20.228104}
+        - {x: 17.800201, y: -23.574577}
+        - {x: 16.25953, y: -34.12967}
+        - {x: 22.230042, y: -42.62329}
+        - {x: 24.536911, y: -48.70003}
+        - {x: 19.189095, y: -60.372692}
+        - {x: 57.5, y: -60.5}
+        - {x: 57.5, y: -21.5}
+        - {x: 57.5, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f44ac6be770134688b06ea43b53f4a
+      internalID: 1138977592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 108
+        height: 112
+      alignment: 9
+      pivot: {x: 0.52540785, y: 0.34052545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.263947, y: 56.25392}
+        - {x: 0.7724304, y: 56.08407}
+        - {x: -30.881226, y: 42.234344}
+        - {x: -54, y: 20.49376}
+        - {x: -54, y: 2.2614136}
+        - {x: -38.340332, y: -7.7345886}
+        - {x: -29.607727, y: -9.392414}
+        - {x: -51.40027, y: -61}
+        - {x: -5.1265564, y: -61}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 0.9810791, y: -32.94034}
+        - {x: -1.8495483, y: -25.14661}
+        - {x: 12.119354, y: -25.022762}
+        - {x: 12.712738, y: -34.12967}
+        - {x: 16.81131, y: -42.524765}
+        - {x: 21.581268, y: -48.502987}
+        - {x: 14.847595, y: -61}
+        - {x: 54, y: -60.5}
+        - {x: 54, y: -21.5}
+        - {x: 54, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ed2314d484c614ba73782b3904b290
+      internalID: -1918274759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 126
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5614522, y: 0.342845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.950195, y: 54.057724}
+        - {x: -0.0119018555, y: 53.88787}
+        - {x: -26.802551, y: 36.74386}
+        - {x: -63, y: 17.513206}
+        - {x: -63, y: -3.0722008}
+        - {x: -38.340332, y: -7.7345886}
+        - {x: -29.607727, y: -9.392414}
+        - {x: -51.40027, y: -61}
+        - {x: -0.15820312, y: -61}
+        - {x: -0.18890381, y: -43.15368}
+        - {x: 5.072693, y: -33.135178}
+        - {x: 1.7549438, y: -24.562096}
+        - {x: 14.165222, y: -24.633083}
+        - {x: 16.609558, y: -34.42193}
+        - {x: 18.662231, y: -42.329926}
+        - {x: 27.426453, y: -44.119125}
+        - {x: 18.541199, y: -60.857937}
+        - {x: 53.14966, y: -61}
+        - {x: 51.823364, y: -15.761181}
+        - {x: 63, y: -7.1749153}
+        - {x: 63, y: 54.255653}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10541a5cfbf32c14f90e47a84e458c14
+      internalID: 1039481461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 108
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5281892, y: 0.34283933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.950195, y: 54.057724}
+        - {x: -0.0119018555, y: 53.88787}
+        - {x: -30.333435, y: 39.953743}
+        - {x: -54, y: 17.513206}
+        - {x: -54, y: -3.0722008}
+        - {x: -38.340332, y: -7.7345886}
+        - {x: -29.607727, y: -9.392414}
+        - {x: -51.40027, y: -61}
+        - {x: -5.257019, y: -60.852207}
+        - {x: -3.883728, y: -43.227577}
+        - {x: -0.83898926, y: -32.765697}
+        - {x: -1.0531006, y: -24.783783}
+        - {x: 14.165222, y: -24.633083}
+        - {x: 13.7276, y: -34.56972}
+        - {x: 18.662231, y: -42.329926}
+        - {x: 23.73169, y: -43.971333}
+        - {x: 13.220703, y: -61}
+        - {x: 53.14966, y: -61}
+        - {x: 44.6734, y: -15.904179}
+        - {x: 54, y: 16.705826}
+        - {x: 54, y: 41.743935}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c155a1bf12d7498009f9f3a2e60cd
+      internalID: 484818513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_6
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 127
+        height: 122
+      alignment: 9
+      pivot: {x: 0.56448054, y: 0.38922045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.094093, y: 60.5}
+        - {x: 1.2819595, y: 60.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -63.108574, y: 2.996666}
+        - {x: -63.5, y: -11.699085}
+        - {x: -35.70713, y: -11.515987}
+        - {x: -20.174175, y: 4.933716}
+        - {x: -10.973473, y: 13.478394}
+        - {x: -4.0153847, y: 10.162636}
+        - {x: -3.4340363, y: 8.301704}
+        - {x: -12.680309, y: 8.231651}
+        - {x: -16.167152, y: 7.6294937}
+        - {x: -18.620056, y: 5.159355}
+        - {x: -47.45804, y: -60.5}
+        - {x: -0.97691727, y: -60.330666}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 2.7318802, y: -25.721127}
+        - {x: -3.3644104, y: -11.170197}
+        - {x: 12.585228, y: -17.685146}
+        - {x: 19.257286, y: -11.842255}
+        - {x: 18.615486, y: -23.458107}
+        - {x: 16.25953, y: -34.12967}
+        - {x: 25.166939, y: -42.825836}
+        - {x: 24.536911, y: -48.70003}
+        - {x: 19.189095, y: -60.372692}
+        - {x: 63.5, y: -60.5}
+        - {x: 63.5, y: -21.5}
+        - {x: 63.5, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb6744569ca0b24cb8d47427ad60036
+      internalID: -842970565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_7
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 127
+        height: 115
+      alignment: 9
+      pivot: {x: 0.56331795, y: 0.415939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.094093, y: 57.5}
+        - {x: 1.2819824, y: 57.5}
+        - {x: -13.618286, y: 57.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -63.5, y: 5.251606}
+        - {x: -63.5, y: -10.867153}
+        - {x: -36.411865, y: -8.556381}
+        - {x: -21.27655, y: 6.587242}
+        - {x: -11.073669, y: 16.28437}
+        - {x: -4.766968, y: 11.966476}
+        - {x: -5.688843, y: 9.955223}
+        - {x: -12.079041, y: 12.089874}
+        - {x: -16.367615, y: 10.3352585}
+        - {x: -18.737488, y: 8.446281}
+        - {x: -20.450134, y: 5.570038}
+        - {x: -47.45804, y: -57.5}
+        - {x: -0.97691727, y: -57.5}
+        - {x: 2.1491928, y: -41.88723}
+        - {x: 2.7318802, y: -25.721127}
+        - {x: -3.3644104, y: -11.170197}
+        - {x: 12.585228, y: -17.685146}
+        - {x: 19.257286, y: -11.842255}
+        - {x: 18.615486, y: -23.458107}
+        - {x: 16.25953, y: -34.12967}
+        - {x: 25.166939, y: -42.825836}
+        - {x: 22.516907, y: -48.389267}
+        - {x: 19.189095, y: -57.5}
+        - {x: 63.5, y: -57.5}
+        - {x: 63.5, y: -21.5}
+        - {x: 63.5, y: 53.78504}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de030730992beb3408cc7b794ecb7a01
+      internalID: 734968308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_8
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 114
+        height: 115
+      alignment: 9
+      pivot: {x: 0.51188046, y: 0.4006658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.81604, y: 57.5}
+        - {x: 2.4299316, y: 57.5}
+        - {x: -15.768921, y: 57.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -45.04431, y: 36.859016}
+        - {x: -57, y: 2.996666}
+        - {x: -57, y: -11.571819}
+        - {x: -48.250366, y: -21.13964}
+        - {x: -29.861084, y: -8.460407}
+        - {x: -53.19763, y: -57.5}
+        - {x: -0.97691727, y: -57.5}
+        - {x: -4.47229, y: -41.607452}
+        - {x: -2.1175537, y: -25.534607}
+        - {x: -8.959961, y: -10.237602}
+        - {x: 4.658081, y: -12.369354}
+        - {x: 14.314575, y: -7.459057}
+        - {x: 14.88501, y: -19.07491}
+        - {x: 8.891968, y: -25.270012}
+        - {x: 14.348877, y: -38.629158}
+        - {x: 18.941406, y: -44.316833}
+        - {x: 11.168823, y: -57.5}
+        - {x: 57, y: -57.5}
+        - {x: 57, y: -21.5}
+        - {x: 57, y: 48.619354}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9157a16939389b643b3dce9504c4b0f1
+      internalID: -1121366583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_9
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 0
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5192305, y: 0.3751858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.81604, y: 55}
+        - {x: 2.4299316, y: 55}
+        - {x: -15.768921, y: 55}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -45.04431, y: 36.859016}
+        - {x: -55, y: 2.996666}
+        - {x: -55, y: -11.571819}
+        - {x: -55, y: -29.804995}
+        - {x: -45.665894, y: -33.558}
+        - {x: -32.210938, y: -21.091259}
+        - {x: -49.237427, y: -55}
+        - {x: -0.97691727, y: -55}
+        - {x: -1.4333496, y: -41.607452}
+        - {x: 4.741699, y: -25.360954}
+        - {x: -6.9069824, y: -13.390381}
+        - {x: 3.6315918, y: -19.554756}
+        - {x: 14.314575, y: -7.459057}
+        - {x: 16.361084, y: -18.640778}
+        - {x: 15.751221, y: -25.09636}
+        - {x: 21.46875, y: -41.060295}
+        - {x: 19.809692, y: -45.445576}
+        - {x: 19.15686, y: -55}
+        - {x: 55, y: -55}
+        - {x: 55, y: -21.5}
+        - {x: 55, y: 48.619354}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df6a27fc4681054d864e31fc3fd40cd
+      internalID: -277506494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_10
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 0
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5174938, y: 0.3715292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.64978, y: 55}
+        - {x: 2.4299316, y: 55}
+        - {x: -15.768921, y: 55}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -45.04431, y: 36.859016}
+        - {x: -55, y: 2.996666}
+        - {x: -55, y: -11.571819}
+        - {x: -55, y: -29.804995}
+        - {x: -45.665894, y: -33.558}
+        - {x: -32.210938, y: -21.091259}
+        - {x: -49.237427, y: -55}
+        - {x: -0.97691727, y: -55}
+        - {x: -1.4333496, y: -41.607452}
+        - {x: 4.741699, y: -25.360954}
+        - {x: -7.156616, y: -13.944447}
+        - {x: 3.5560303, y: -17.178234}
+        - {x: 14.314575, y: -7.459057}
+        - {x: 16.361084, y: -18.640778}
+        - {x: 15.751221, y: -25.09636}
+        - {x: 21.46875, y: -41.060295}
+        - {x: 19.809692, y: -45.445576}
+        - {x: 19.15686, y: -55}
+        - {x: 55, y: -55}
+        - {x: 55, y: -21.5}
+        - {x: 55, y: 48.619354}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e75c7804b11ed24f83cec7f1dca9747
+      internalID: 1913253558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossgame_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 110
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5149947, y: 0.33336097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.64978, y: 52.5}
+        - {x: 2.4299316, y: 52.5}
+        - {x: -15.768921, y: 52.5}
+        - {x: -30.88121, y: 47.159805}
+        - {x: -45.04431, y: 36.859016}
+        - {x: -55, y: 2.996666}
+        - {x: -55, y: -11.571819}
+        - {x: -55, y: -29.804995}
+        - {x: -45.665894, y: -35.45108}
+        - {x: -32.210938, y: -21.091259}
+        - {x: -49.1261, y: -52.38864}
+        - {x: -0.97691727, y: -52.5}
+        - {x: -1.4333496, y: -41.607452}
+        - {x: 4.2962646, y: -24.024662}
+        - {x: -7.2680664, y: -16.617027}
+        - {x: 4.4468994, y: -19.628101}
+        - {x: 12.532837, y: -11.913361}
+        - {x: 16.361084, y: -18.640778}
+        - {x: 15.751221, y: -25.09636}
+        - {x: 20.243896, y: -40.948936}
+        - {x: 19.809692, y: -45.445576}
+        - {x: 19.15686, y: -52.5}
+        - {x: 55, y: -52.5}
+        - {x: 55, y: -21.5}
+        - {x: 55, y: 48.619354}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2808797ba236d024c86df9d436d7e4ca
+      internalID: 1305094447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossgame_11: 1305094447
+      bossgame_10: 1913253558
+      bossgame_5: 484818513
+      bossgame_9: -277506494
+      bossgame_1: -1930578917
+      bossgame_2: 1138977592
+      bossgame_0: -1673040504
+      bossgame_7: 734968308
+      bossgame_6: -842970565
+      bossgame_3: -1918274759
+      bossgame_8: -1121366583
+      bossgame_4: 1039481461
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

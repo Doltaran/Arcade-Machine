@@ -33,7 +33,10 @@ public class LevelData : MonoBehaviour
             new NumberVariations(4, "100"),
             new NumberVariations(5, "101"),
             new NumberVariations(6, "110"),
-            new NumberVariations(7, "111")
+            new NumberVariations(7, "111"),
+            new NumberVariations(8, "1000"),
+            new NumberVariations(9, "1001"),
+            new NumberVariations(10, "1010"),
             // Добавьте сюда другие вариации чисел по мере необходимости
         };
     }

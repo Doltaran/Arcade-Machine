@@ -3,7 +3,19 @@ guid: 69cfe6b25ba4a18429e6c1a47ce79a7b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - passwordInput: {instanceID: 0}
+  - confirmButton: {instanceID: 0}
+  - canvasManager: {instanceID: 0}
+  - gameController: {instanceID: 0}
+  - objectWithRobotCollider: {instanceID: 0}
+  - objectWithWallCollider: {instanceID: 0}
+  - robotAnimator: {instanceID: 0}
+  - wallAnimator: {instanceID: 0}
+  - RedAnimator: {instanceID: 0}
+  - YellowAnimator: {instanceID: 0}
+  - correctPasswordAudio: {fileID: 8300000, guid: b39a2002442d443478ed590c7a1c5c06, type: 3}
+  - incorrectPasswordAudio: {fileID: 8300000, guid: cf3bd8b043ee8e04cb948d96ba1343c6, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

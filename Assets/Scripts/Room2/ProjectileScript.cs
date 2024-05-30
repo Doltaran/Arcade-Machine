@@ -5,26 +5,35 @@ public class ProjectileScript : MonoBehaviour
 {
     public float projectileSpeed = 5f;
     public float destroyDelay = 2f;
+    public float shootDelay = 0.5f; // Задержка между выстрелами
     public GameObject projectilePrefab;
 
-    // Новый метод для начала стрельбы
+    private bool isShooting = false;
+    private float lastShootTime;
+
     public void StartShooting()
     {
-        StartCoroutine(ShootProjectile());
+        isShooting = true;
+        lastShootTime = Time.time; // Сохраняем время последнего выстрела
     }
 
-    IEnumerator ShootProjectile()
+    public void StopShooting()
     {
-        while (true)
+        isShooting = false;
+    }
+
+    private void Update()
+    {
+        if (isShooting && Time.time - lastShootTime >= shootDelay)
         {
+            // Создаем новый снаряд только если прошла задержка между выстрелами
             GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
             rb.velocity = new Vector2(-projectileSpeed, 0f);
 
-            yield return new WaitForSeconds(destroyDelay);
+            Destroy(projectile, destroyDelay);
 
-            Destroy(projectile);
+            lastShootTime = Time.time; // Обновляем время последнего выстрела
         }
     }
 }
-
